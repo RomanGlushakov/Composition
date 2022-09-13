@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ChooseLevelFragment">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_level"
+        android:textSize="24sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_test_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="16dp"
+        android:text="@string/test_level"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/button_easy_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#0E7806"
+        android:layout_marginHorizontal="16dp"
+        android:text="@string/easy_level"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/button_normal_level"
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A1941A"
+        android:layout_marginHorizontal="16dp"
+        android:text="@string/normal_level"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/button_hard_level"
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#A1251A"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:text="@string/hard_level"
+        android:textSize="16sp" />
+
+
+
+
+</LinearLayout>
+
+</layout>
